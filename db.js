@@ -7,4 +7,4 @@ const sequelize = new Sequelize('database', 'username', 'password', {
     logging: false
 })
 
-module.exports = {Sequelize, DataTypes, Model}
+module.exports = {sequelize, DataTypes, Model}
